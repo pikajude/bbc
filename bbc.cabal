@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 81e83b17dae9df469e402c6b830fc73d23e17fdbc2b4c1e43d76ba947313b83e
+-- hash: 764435c1974312476b8908babf9bf7a3316ce4fe4e201842527326e1d761f527
 
 name:           bbc
 version:        0.0.1
@@ -13,6 +13,8 @@ build-type:     Simple
 executable bbc
   main-is: Main.hs
   other-modules:
+      Character
+      Origin
       Stats
       Paths_bbc
   hs-source-dirs:
