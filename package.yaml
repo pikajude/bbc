@@ -1,0 +1,30 @@
+name: bbc
+version: 0.0.1
+
+ghc-options:
+  - -Wall
+  - -fno-warn-missing-signatures
+
+dependencies:
+  - base
+
+default-extensions:
+  - NoMonomorphismRestriction
+
+executables:
+  bbc:
+    main: Main.hs
+    source-dirs: src
+    dependencies:
+      - data-default
+      - mtl
+      - reflex-dom
+      - text
+      - containers
+      - aeson
+      - scientific
+      - bytestring
+      - jsaddle-dom
+      - lens
+      - template-haskell
+      - time

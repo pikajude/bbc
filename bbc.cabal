@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.32.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 81e83b17dae9df469e402c6b830fc73d23e17fdbc2b4c1e43d76ba947313b83e
+
+name:           bbc
+version:        0.0.1
+build-type:     Simple
+
+executable bbc
+  main-is: Main.hs
+  other-modules:
+      Stats
+      Paths_bbc
+  hs-source-dirs:
+      src
+  default-extensions: NoMonomorphismRestriction
+  ghc-options: -Wall -fno-warn-missing-signatures
+  build-depends:
+      aeson
+    , base
+    , bytestring
+    , containers
+    , data-default
+    , jsaddle-dom
+    , lens
+    , mtl
+    , reflex-dom
+    , scientific
+    , template-haskell
+    , text
+    , time
+  default-language: Haskell2010
